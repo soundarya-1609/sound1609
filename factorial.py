@@ -1,10 +1,5 @@
-s,k=map(int,input().split())
-for number in range(s+1,k):
-   sums = 0
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sums += digit ** 3
-       temp //= 10
-   if number == sum:
-       print(number,end=' ')
+s=int(input())
+g=1
+for k in range(1,s+1):
+ g=g*k
+print(g)
